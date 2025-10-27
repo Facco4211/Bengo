@@ -1,5 +1,4 @@
 import style from "./style.module.css";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 
 function Lancamento() {
@@ -54,7 +53,18 @@ function Lancamento() {
                     </a>
                 </div>
                 <div className={style.item5} style={{ gridArea: "box5" }}>
-
+                    <div className={style.texto}>
+                        <h1>METAL GEAR SOLID Δ: SNAKE EATER</h1>
+                        <p>Um remake do jogo METAL GEAR SOLID 3: SNAKE EATER, de 2004, 
+                        com mesma história envolvente e o mesmo mundo cativante,
+                        agora com gráficos novíssimos e áudio 3D, que aprimora a atmosfera de selva.</p>
+                        <div className={style.preco}>
+                            <a href="/games">COMPRAR</a><p>R$ 399,50</p>
+                        </div>
+                    </div>
+                    <a href="/games" className={style.imageDeExemplo}>
+                        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202501/2904/c3b03866a52355a930da191cf2e823c2b79e7d3f4533ef32.jpg" alt="" />
+                    </a>
                 </div>
             </div>
         </>
