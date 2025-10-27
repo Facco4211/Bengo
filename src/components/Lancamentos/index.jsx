@@ -10,7 +10,7 @@ function Lancamento() {
                         <strong>EM ALTA</strong>
                         <h1>Ninja Gaiden 4</h1>
                     </div>
-                    <p>O ninja mais memoravel retorna</p>
+                    <p>O ninja mais memoravel dos games retorna</p>
                     <div className={style.preco}>
                         <a href="/games">COMPRAR</a> <p>R$ 299,00</p>
                     </div>

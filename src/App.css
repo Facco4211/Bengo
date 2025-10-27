@@ -14,6 +14,12 @@
 #root {
   background-color: #EFEFEF;
 }
+html {
+    scroll-behavior: smooth;
+  overscroll-behavior: contain;
+  scroll-snap-type: y proximity;
+  -webkit-overflow-scrolling: touch;
+}
 /* ::-webkit-scrollbar {
   width: 12px;
     color: #4A72D8;
