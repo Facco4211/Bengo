@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #DADADA;
+  height: 10vh;
+  .logo {
+    display: flex;
+    align-items: center;
+    color: #4A72D8;
+
+    h1 {
+      font-weight: 400;
+    }
+  }
+
+  .links {
+    display: flex;
+    gap: 13px;
+    .linkAtivado{
+      color: #4A72D8;
+    }
+    .link{
+    text-decoration: none;
+    color: #888888;
+    }
+    a:hover{
+      color: #4A72D8;
+    }
+  }
+}
