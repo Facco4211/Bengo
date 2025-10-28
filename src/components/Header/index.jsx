@@ -1,6 +1,6 @@
 import style from "./style.module.css";
 import { MdControlCamera } from "react-icons/md";
-import { Link } from 'react-router'
+import { Link } from 'react-router';
 
 function header() {
     return (
