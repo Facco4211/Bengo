@@ -1,5 +1,7 @@
 import style from "./style.module.css";
 import { MdControlCamera } from "react-icons/md";
+import { Link } from 'react-router'
+
 function header() {
     return (
         <header>
@@ -8,9 +10,9 @@ function header() {
                 <h1>Bengo</h1>
             </div>
             <div className={style.links}>
-            <a className={style.linkAtivado} href="/">Home</a>
-            <a className={style.link} href="/games">Games</a>
-            <a className={style.link} href="/destaques">Destaques</a>
+            <Link className={style.linkAtivado} to="/">Home</Link>
+            <Link className={style.link} to="/games">Games</Link>
+            <Link className={style.link} to="/destaques">Destaques</Link>
             </div>
         </header>
     );
