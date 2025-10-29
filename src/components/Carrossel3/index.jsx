@@ -5,6 +5,7 @@ import teste from '../../imgs/Okami.png';
 import teste2 from '../../imgs/Carrosselmgs/farCry3.png'
 import { useState } from "react";
 import { Link } from 'react-router'
+import { jogos } from '../../data/jogos';
 
 import { } from 'react-icons';
 export default function Carrossel3() {
