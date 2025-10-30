@@ -4,14 +4,33 @@
     grid-template-columns: 1fr 4fr;
 
     .categorias {
-        background: #fff;
-        border: 1px solid #DADADA;
+        padding: 8px;
 
-        h1{
+        h1 {
             color: #4A72D8;
             font-weight: 500;
         }
-    } 
+
+        .categoria {
+            background-color: #fff;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 15px;
+            width: 100%;
+            height: 40px;
+            gap: 20px;
+            padding-left: 10px;
+            border: 1px solid #DADADA;
+
+            h2 {
+                color: #4A72D8;
+                font-weight: 500;
+                font-size: 20px;
+
+            }
+        }
+    }
 
     .Items {
         display: grid;

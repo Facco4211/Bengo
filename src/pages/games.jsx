@@ -3,6 +3,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Link } from 'react-router';
 import { jogos } from '../data/jogos';
+import { LuSwords } from "react-icons/lu";
+import { FaExplosion } from "react-icons/fa6";
 
 function Games() {
   return (
@@ -11,12 +13,19 @@ function Games() {
       <div className="conteudo">
         <div className="categorias">
           <h1>Categorias</h1>
+          <div className="categoria"><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2><p>12</p></div>
+          <div className="categoria"><FaExplosion color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
+          <div className="categoria"><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
+          <div className="categoria"><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
+          <div className="categoria"><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
+          <div className="categoria"><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
+          <div className="categoria"><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
         </div>
         <div className="Items">
           {jogos.map((jogo) => {
             return (
               <>
-                <Link Key={jogo.id} to="/games" className="item">
+                <Link Key={jogo.id} to="/paginadojogo" className="item">
                   <div className="imgdoitem">
                     <img src={jogo.image} alt="" />
                   </div>
