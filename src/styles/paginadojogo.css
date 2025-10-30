@@ -1,0 +1,24 @@
+.informacoes {
+    display: flex;
+    margin-bottom: 30px;
+
+    .descricao {
+        width: 70%;
+        border-right: 1px solid #4A4C49;
+        height: 300px;
+
+        h1 {
+            color: #4A72D8;
+            padding-left: 50px;
+        }
+    }
+
+    .comprar {
+        width: 30%;
+        margin-left: 50px;
+
+        h1 {
+            color: #4A72D8;
+        }
+    }
+}

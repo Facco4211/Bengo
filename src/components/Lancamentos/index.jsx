@@ -63,7 +63,7 @@ function Lancamento() {
                         </div>
                     </div>
                     <Link to="/games" className={style.imageDeExemplo}>
-                        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202501/2904/c3b03866a52355a930da191cf2e823c2b79e7d3f4533ef32.jpg" alt="" />
+                        <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2025/08/metal-gear-solid-delta-snake-eater-4355762.jpg?tf=3840x" alt="" />
                     </Link>
                 </div>
             </div>
