@@ -13,13 +13,13 @@ function Games() {
       <div className="conteudo">
         <div className="categorias">
           <h1>Categorias</h1>
-          <div className="categoria"><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2><p>12</p></div>
-          <div className="categoria"><FaExplosion color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
-          <div className="categoria"><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
-          <div className="categoria"><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
-          <div className="categoria"><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
-          <div className="categoria"><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
-          <div className="categoria"><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
+          <div className="categoria"><input type="checkbox" /><FaExplosion color="#4A72D8" size="18px"/><h2>Ação</h2><p>12</p></div>
+          <div className="categoria"><input type="checkbox" /><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
+          <div className="categoria"><input type="checkbox" /><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
+          <div className="categoria"><input type="checkbox" /><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
+          <div className="categoria"><input type="checkbox" /><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
+          <div className="categoria"><input type="checkbox" /><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
+          <div className="categoria"><input type="checkbox" /><LuSwords color="#4A72D8" size="18px"/><h2>Aventura</h2></div>
         </div>
         <div className="Items">
           {jogos.map((jogo) => {

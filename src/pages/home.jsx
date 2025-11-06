@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
     <Header/>
-    {/* <Carrossel /> */}
+    <Carrossel /> 
     <Carrossel3 />
     <Lancamento/>
     <Footer />

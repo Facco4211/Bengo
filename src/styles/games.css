@@ -1,10 +1,11 @@
 .conteudo {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
 
     .categorias {
         padding: 8px;
+        background-color: #fff;
 
         h1 {
             color: #4A72D8;
@@ -12,7 +13,6 @@
         }
 
         .categoria {
-            background-color: #fff;
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -21,7 +21,6 @@
             height: 40px;
             gap: 20px;
             padding-left: 10px;
-            border: 1px solid #DADADA;
 
             h2 {
                 color: #4A72D8;
@@ -38,6 +37,7 @@
         flex: 1;
         gap: 6px;
         margin: 12px;
+
     }
 
     .item {
@@ -49,12 +49,12 @@
         border: 1px solid #DADADA;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         text-decoration: none;
-        transition: transform 0.5s ease;
-        height: 270px;
+        height: 300px;
 
         .imgdoitem {
             height: 60%;
             width: 100%;
+            overflow: hidden;
 
             img {
                 width: 100%;
@@ -62,55 +62,67 @@
                 object-fit: cover;
                 border-top-right-radius: 2px;
                 border-top-left-radius: 2px;
-            }
-        }
-
-        .informacaoCarrossel {
-            height: 40%;
-            width: 100%;
-            padding: 17px;
-
-            .custo {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-
-                h3 {
-                    color: #4A72D8;
-                    font-weight: 500;
-                    font-size: 20px;
-                }
-            }
-
-            .descricao {
-                margin-top: 10%;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-
-                .tipo {
-                    display: flex;
-                    flex-direction: row;
-                    gap: 0.5em;
-
-                    p {
-                        color: #4A4C49;
-                        font-size: 13px;
-                    }
-                }
-
-                .plataforma {
-                    p {
-                        color: #4A4C49;
-                        font-size: 13px;
-                    }
-                }
+                transition: transform 0.5s ease;
             }
 
         }
+
+        &:hover {
+            .imgdoitem {
+                width: 100%;
+                height: 100%;
+
+                img {
+                    transform: scale(1.05);
+
+                }
+            }
+        }
+
+
     }
-}
 
-.item:hover {
-    transform: scale(1.02);
+    .informacaoCarrossel {
+        height: 40%;
+        width: 100%;
+        padding: 17px;
+
+        .custo {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            h3 {
+                color: #4A72D8;
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+
+        .descricao {
+            margin-top: 10%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .tipo {
+                display: flex;
+                flex-direction: row;
+                gap: 0.5em;
+
+                p {
+                    color: #4A4C49;
+                    font-size: 13px;
+                }
+            }
+
+            .plataforma {
+                p {
+                    color: #4A4C49;
+                    font-size: 13px;
+                }
+            }
+        }
+
+    }
 }

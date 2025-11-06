@@ -1,5 +1,4 @@
 export const jogos = [
-    
     {
         id: "1",
         nome: "Ōkami",
