@@ -18,7 +18,7 @@ export const jogos = [
         {
         id: "3",
         nome: "The witcher 3",
-        image: "https://preview.redd.it/6y1li0h3o1n71.jpg?auto=webp&s=bf73d80b32e69e4aeace112e417f85f29b9bfa7b",
+        image: "https://dropsdejogos.uai.com.br/wp-content/uploads/sites/10/2021/07/witcher-1-scaled.jpg",
         precoCentavos: "10500",
         avaliacao: "92",
         nomesChave: ["Aventura", "Exploração"]
@@ -41,6 +41,30 @@ export const jogos = [
     },
         {
         id: "6",
+        nome: "Stardew Valley",
+        image: "https://images4.alphacoders.com/782/thumb-1920-782781.png",
+        precoCentavos: "10500",
+        avaliacao: "92",
+        nomesChave: ["Aventura", "Exploração"]
+    },
+            {
+        id: "7",
+        nome: "Far Cry 3",
+        image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPFY7Inl-7qpVkCPtQVrqZS5jhUermnYnUsgZYFCi57-7jdv3ReeEro4997KEWcQ_RKMaZyykE8eHL4EkHtghT1kFVCXgX28SELs7Lv71a1SOhktRW4wx6QTkbiqP54d21UqgCp20zdWPn/s1600/far-cry-3-classic-edition-logo.jpg",
+        precoCentavos: "8400",
+        avaliacao: "92",
+        nomesChave: ["Ação", "Mundo Aberto"]
+    },
+    {
+        id: "8",
+        nome: "Borderlands 3",
+        image: "https://cdn1.epicgames.com/catnip/offer/BL3Wide_2560x1440-2560x1440-462318f36bee20de4412e111ef72dc62.jpg",
+        precoCentavos: "9700",
+        avaliacao: "92",
+        nomesChave: ["Aventura", "Exploração"]
+    },
+        {
+        id: "9",
         nome: "Stardew Valley",
         image: "https://images4.alphacoders.com/782/thumb-1920-782781.png",
         precoCentavos: "10500",

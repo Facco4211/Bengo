@@ -5,10 +5,10 @@ import { Link } from 'react-router';
 function header() {
     return (
         <header>
-            <div className={style.logo}>
+            <Link  className={style.logo} to="/">
                 <MdControlCamera size={40}/>
                 <h1>Bengo</h1>
-            </div>
+            </Link>
             <div className={style.links}>
             <Link className={style.linkAtivado} to="/">Home</Link>
             <Link className={style.link} to="/games">Games</Link>

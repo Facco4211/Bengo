@@ -7,11 +7,11 @@ function Paginadojogo() {
     return (
         <>
             <Header />
-            <iframe width="100%" height="500" src="https://www.youtube.com/embed/4_42UdWgEmY?si=cLWCnnUvqgUs0ioI" title="Okami" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div className='informacoes'>
+                <iframe width="70%" height="600" src="https://www.youtube.com/embed/4_42UdWgEmY?si=cLWCnnUvqgUs0ioI" title="Okami" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <div className='descricao'><h1>Okami</h1></div>
-                <div className='comprar'><h1>R$89,90</h1></div>
             </div>
+            <div className='comprar'><h1>R$89,90</h1></div>
             <Footer />
         </>
     )

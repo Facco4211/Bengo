@@ -3,13 +3,12 @@
     margin-bottom: 30px;
 
     .descricao {
-        width: 70%;
-        border-right: 1px solid #4A4C49;
+        width: 30%;
         height: 300px;
-
+        text-align: center;
         h1 {
+            font-size: 60px;
             color: #4A72D8;
-            padding-left: 50px;
         }
     }
 
@@ -21,4 +20,37 @@
             color: #4A72D8;
         }
     }
+}
+.fade {
+  animation: fadeSlide 0.4s ease-in-out;
+}
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* animação do texto individual */
+.textoAnimado {
+  animation: textoFade 0.6s ease-in-out;
+}
+
+@keyframes textoFade {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
