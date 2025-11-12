@@ -7,11 +7,11 @@ import Footer from "../components/Footer";
 function Home() {
   return (
     <>
-    <Header/>
-    <Carrossel /> 
-    <Carrossel3 />
-    <Lancamento/>
-    <Footer />
+      <Header />
+      <Carrossel />
+      <Lancamento />
+      {/* <Carrossel3 /> */}
+      <Footer />
     </>
   );
 }

@@ -2,7 +2,7 @@ export const jogos = [
     {
         id: "1",
         nome: "Ōkami",
-        image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhke65KC_Xgu7O_V-eCxVS5SHbntuNidyxMPn-CGjhHgg-9DKtV5yP8Wd4sH9LDAw-TFnJrHR90S1kORMknJ6gVBuJWRLqDAhGXH87PFGRbnBPy-VKVddEW5e8m9W-Gqqj2Lxf6KItIGiUb/s1600/An%25C3%25A1lise-Okami-HD-Nintendo-Switch-Review.jpg",
+        image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/587620/capsule_616x353.jpg?t=1733787035",
         precoCentavos: "8400",
         avaliacao: "92",
         nomesChave: ["Aventura", "Exploração"]

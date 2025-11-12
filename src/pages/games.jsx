@@ -8,9 +8,8 @@ function Games() {
   return (
     <>
       <Header />
-      <div className="categorias">
+      {/* <div className="categorias">
         <div className="categoria">
-          <Link className={style.linkAtivado} to="/games">Ação</Link>
           <img src="https://pixelz.cc/wp-content/uploads/2017/11/wolfenstein-the-new-order-blazkowicz-uhd-8k-wallpaper.jpg" alt="" />
         </div>
         <div className="categoria">
@@ -28,13 +27,12 @@ function Games() {
         <div className="categoria">
           <img src="https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_dying_light_01_1920x1080.jpg" alt="" />
         </div>
-      </div>
+      </div> */}
       <div className="conteudo">
         <div className="buscador">
           <div className="filtro"><input type="checkbox" /></div>
           <div className="buscar"><input type="text" /></div>
         </div>
-        <h1>Jogos</h1>
         <div className="Items">
           {jogos.map((jogo) => {
             return (
