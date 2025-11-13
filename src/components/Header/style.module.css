@@ -1,4 +1,4 @@
-header {
+.parteCima {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -20,18 +20,87 @@ header {
   .links {
     display: flex;
     gap: 13px;
+  }
 
-    .linkAtivado {
-      color: #4A72D8;
-    }
+  .link {
+    text-decoration: none;
+    color: #888888;
+  }
 
-    .link {
-      text-decoration: none;
-      color: #888888;
-    }
+  .link:hover {
+    color: #4A72D8;
+  }
 
-    a:hover {
-      color: #4A72D8;
-    }
+  .active {
+    color: #4A72D8;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+}
+
+.parteBaixo {
+  display: flex;
+  justify-content: space-evenly ;
+  width: 100%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+}
+
+.dropdownBtn {
+  width: 100%;
+  padding: 10px;
+  color: #888888;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdownBtn:hover {
+  color: #4A72D8;
+}
+
+.dropdownMenu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  list-style: none;
+  padding: 5px 0;
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.dropdownMenu li {
+  background: url(https://sm.ign.com/t/ign_pk/review/r/red-dead-r/red-dead-redemption-2-review_ug9q.1280.jpg) center;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #EFEFEF;
+  transition: 0.5s;
+}
+
+.dropdownMenu li:hover {
+  height: 100px;
+  background-color: #a7a7a7;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

@@ -16,18 +16,26 @@
 
         }
     }
-        .categoria:hover{
-            width: 500px;
-            opacity: 50%;
-        }
+
+    .categoria:hover {
+        width: 500px;
+        opacity: 50%;
+    }
+}
+
+.buscador {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #fff;
 }
 
 .conteudo {
-    .buscador{
+    .buscador {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
+
     .Items {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
