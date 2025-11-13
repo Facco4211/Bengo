@@ -1,14 +1,14 @@
-import style from "../styles/games.css";
+import "../styles/games.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import { jogos } from '../data/jogos';
 
 function Games() {
   return (
     <>
       <Header />
-       <div className="categorias">
+      <div className="categorias">
         <div className="categoria">
           <img src="https://pixelz.cc/wp-content/uploads/2017/11/wolfenstein-the-new-order-blazkowicz-uhd-8k-wallpaper.jpg" alt="" />
         </div>
@@ -27,7 +27,7 @@ function Games() {
         <div className="categoria">
           <img src="https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_dying_light_01_1920x1080.jpg" alt="" />
         </div>
-      </div> 
+      </div>
       <div className="conteudo">
         <div className="buscador">
           <div className="filtro"><input type="checkbox" /></div>
@@ -37,7 +37,7 @@ function Games() {
           {jogos.map((jogo) => {
             return (
               <>
-                <Link Key={jogo.id} to="/paginadojogo" className="item">
+                <Link key={jogo.id} to="/paginadojogo" className="item">
                   <div className="imgdoitem">
                     <img src={jogo.image} alt="" />
                   </div>

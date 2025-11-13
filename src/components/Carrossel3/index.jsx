@@ -4,7 +4,7 @@ import style from './style.module.css';
 import teste from '../../imgs/Okami.png';
 import teste2 from '../../imgs/Carrosselmgs/farCry3.png'
 import { useState } from "react";
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 import { jogos } from '../../data/jogos';
 
 import { } from 'react-icons';
@@ -97,7 +97,7 @@ export default function Carrossel3() {
           <IoIosArrowBack color="#4A72D8" size={40} />
         </button>
         <div className={style.carrosselItens}>
-          <Link to="/games" className={style.item}>
+          <Link href="/games" className={style.item}>
             <div className={style.imgdoitem}>
               <img src={item1.src} alt="" />
             </div>
@@ -115,7 +115,7 @@ export default function Carrossel3() {
               </div>
             </div>
           </Link>
-          <Link to="/games" className={style.item}>
+          <Link href="/games" className={style.item}>
             <div className={style.imgdoitem}>
               <img src={item2.src} alt="" /></div>
             <div className={style.informacaoCarrossel}>
@@ -132,7 +132,7 @@ export default function Carrossel3() {
               </div>
             </div>
           </Link>
-          <Link to="/games" className={style.item}>
+          <Link href="/games" className={style.item}>
             <div className={style.imgdoitem}>
               <img src={item3.src} alt="" /></div>
             <div className={style.informacaoCarrossel}>
